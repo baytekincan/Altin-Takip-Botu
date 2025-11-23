@@ -44,11 +44,12 @@ async def button_handler(update: Update, context):
             price = cached_prices.get(gold_type_title, "Bilgi alınamadı")
             all_prices_list.append(format_price_info(gold_type_title, price)) 
 
+        all_prices_text = " \n".join(all_prices_list)
         response_message = (
-            f"💰 **Tüm Altın Fiyatları (Anlık Alış)**\n"
-            f"🌐 Kaynak: Mynet Finans\n\n"
-            f"{' \n'.join(all_prices_list)}\n\n"
-            f"⏳ Son Güncelleme: {last_update_time}" 
+            "💰 **Tüm Altın Fiyatları (Anlık Alış)**\n"
+            "🌐 Kaynak: Mynet Finans\n\n"
+            f"{all_prices_text}\n\n"
+            f"⏳ Son Güncelleme: {last_update_time}"
         )
         
     elif data.startswith('get_type_'):
@@ -57,8 +58,8 @@ async def button_handler(update: Update, context):
         price_info = format_price_info(gold_type_title, price)
         
         response_message = (
-            f"💰 **Seçilen Altın Fiyatı (Anlık Alış)**\n"
-            f"🌐 Kaynak: Mynet Finans\n\n"
+            "💰 **Seçilen Altın Fiyatı (Anlık Alış)**\n"
+            "🌐 Kaynak: Mynet Finans\n\n"
             f"{price_info}\n\n"
             f"⏳ Son Güncelleme: {last_update_time}"
         )
