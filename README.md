@@ -1,7 +1,7 @@
 # 🥇 Altın Takip Botu
 
 Telegram üzerinden **anlık altın fiyatlarını** sunan, **Dockerize** edilmiş ve **Google Cloud üzerinde çalışan** bir bot.  
-Versiyon 2 ile bot artık **otomatik periyodik bildirimler** ve **geliştirilmiş menü/keyboard deneyimi** sunuyor.
+Versiyon 2 ile bot artık **otomatik periyodik bildirimler** ve **geliştirilmiş menü deneyimi** sunuyor.
 
 ## 🎯 Amaç
 Modern yazılım sürecini (**geliştirme → konteynerleştirme → bulut dağıtımı**) uçtan uca deneyimlemek ve sürdürülebilir, modüler bir proje geliştirmek amacıyla tasarlanmıştır.
@@ -9,8 +9,11 @@ Modern yazılım sürecini (**geliştirme → konteynerleştirme → bulut dağ�
 ## 🚀 Sürüm Notları
 - **V1.0** - Menüden seçilen altın türünün anlık fiyatını gösterir.  
 - **V2.0** - 
-  - Kullanıcının seçtiği bildirim sıklığına göre **otomatik altın fiyat bildirimi** mekanizması eklendi.
-  - Tasarımlar **daha görsel ve kullanıcı dostu** hâle getirildi.  
+  - Kullanıcının seçtiği bildirim sıklığına göre otomatik altın fiyat bildirimi mekanizması eklendi.
+  - Tasarımlar daha görsel ve kullanıcı dostu hâle getirildi.  
+- **V2.0.1** - 
+  - Geri bildirim mesajları iyileştirildi.  
+  - Bazı menülerin buton tasarımları güncellendi.
 
 ## 🛠️ Teknoloji Seti
 <div>
@@ -20,4 +23,4 @@ Modern yazılım sürecini (**geliştirme → konteynerleştirme → bulut dağ�
 </div>
 
 ## 🤖 Botu Deneyin
-👉 [Altın Takip Botu - Telegram](https://t.me/AnlikAltinBot)  
+👉 [Altın Takip Botu - Telegram](https://t.me/AnlikAltinBot)
