@@ -52,7 +52,7 @@ def create_main_menu_message():
     )
 
 def create_copyright_message():
-    return f"© Tüm hakları saklıdır.\n💻 Geliştirici: Can Baytekin - {GITHUB_LINK}"
+    return f"© Tüm hakları saklıdır.\n💻 Geliştirici: Can Baytekin - [GitHub Profili]({GITHUB_LINK})"
 
 def create_main_menu_keyboard() -> InlineKeyboardMarkup:
     buttons = [
@@ -85,10 +85,9 @@ def create_frequency_keyboard() -> InlineKeyboardMarkup:
         )
     buttons.append([freq_buttons[0], freq_buttons[1]])
     buttons.append([freq_buttons[2], freq_buttons[3]])
-    buttons.append([
-        InlineKeyboardButton("🚫 Bildirim İptal Et/Kontrol Et", callback_data="go_cancel_menu"),
-        InlineKeyboardButton("🏠 Ana Menüye Dön", callback_data="go_main_menu")
-    ])
+    buttons.append([InlineKeyboardButton("🚫 Bildirim İptal Et/Kontrol Et", callback_data="go_cancel_menu")])
+    buttons.append([InlineKeyboardButton("🏠 Ana Menüye Dön", callback_data="go_main_menu")])
+        
     return InlineKeyboardMarkup(buttons)
 
 def create_notification_gold_keyboard(gold_options: dict, frequency_seconds: str) -> InlineKeyboardMarkup:

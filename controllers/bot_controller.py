@@ -25,7 +25,6 @@ async def send_periodic_notification(context: ContextTypes.DEFAULT_TYPE):
 
     notification_message = (
         f"🔔 **{gold_type_title} Periyodik Fiyat Bilgisi**\n"
-        f"———————————————\n"
         f"{price_info}\n"
         f"⏳ Son Güncelleme: {last_update_time}"
     )
@@ -174,8 +173,8 @@ async def button_handler(update: Update, context):
 
         response_message = (
             f"🎉 **Yeni Bildirim Başarıyla Ayarlandı!**\n\n"
-            f"Altın: **{gold_type_title}**\n"
-            f"Sıklık: **{frequency_label}'te bir**\n\n"
+            f"🥇 Altın: **{gold_type_title}**\n"
+            f"⏰ Sıklık: **{frequency_label}**\n\n"
             f"İlk bildirimi şimdi alacaksınız. Birden fazla bildirim ayarlayabilirsiniz."
         )
         reply_markup = create_return_to_menu_keyboard()
