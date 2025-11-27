@@ -22,5 +22,12 @@ Modern yazılım sürecini (**geliştirme → konteynerleştirme → bulut dağ�
     <img src="https://skillicons.dev/icons?i=gcp" height="40" alt="google cloud logo" title="Google Cloud" /> 
 </div>
 
+## 📱 Arayüz Önizlemesi
+Telegram botunun menü akışı ve başlıca özelliklerini gösteren ekran görüntüleri.
+
+<p align="left">
+  <img src="assets/ui-preview.png" alt="Altın Takip Botu Arayüz Önizlemesi" width="600" />
+</p>
+
 ## 🤖 Botu Deneyin
 👉 [Altın Takip Botu - Telegram](https://t.me/AnlikAltinBot)
