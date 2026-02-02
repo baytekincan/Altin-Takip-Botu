@@ -30,4 +30,7 @@ Telegram botunun menü akışı ve başlıca özelliklerini gösteren ekran gör
 </p>
 
 ## 🤖 Botu Deneyin
+⚠️ **Bot şu anda maliyet optimizasyonu kapsamında devre dışıdır**.
+
+Aktif olduğunda buradaki Telegram linki üzerinden erişilebilir olacaktır.
 👉 [Altın Takip Botu - Telegram](https://t.me/AnlikAltinBot)
